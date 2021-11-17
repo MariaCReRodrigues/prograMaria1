@@ -1,10 +1,10 @@
-document.getElementByID("enviar").addEventListener("click", validaFormulario())
+document.getElementById("enviar").addEventListener("click", validaFormulario())
 
 function validaFormulario() {
 
-  if (document.getElementByID("nome").value != "" &&
-    document.getElementByID("email").value != "" &&
-    document.getElementByID("tele").value != "") {
+  if (document.getElementById("nome").value != "" &&
+    document.getElementById("email").value != "" &&
+    document.getElementById("tele").value != "") {
     alert("Prontinho! Agora você vai receber as novidades por email.")
   } else {
     alert("Ops, preencha os três campos.")
