@@ -1,4 +1,4 @@
-document.getElementById("enviar").addEventListener("click", validaFormulario())
+document.getElementById("enviar").addEventListener("click", validaFormulario)
 
 function validaFormulario() {
 
